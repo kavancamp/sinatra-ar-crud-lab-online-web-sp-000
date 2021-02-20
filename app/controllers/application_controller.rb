@@ -47,5 +47,3 @@ class ApplicationController < Sinatra::Base
       Article.destroy(id)
       redirect to '/articles'
       end
-
-
